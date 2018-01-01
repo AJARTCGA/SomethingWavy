@@ -1,0 +1,37 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of Test.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\include\Test.cpp, ..\..\..\..\src\Test.cpp.
+  Test.cpp
+..\..\..\..\include\Test.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  BoatEditor.cpp
+..\..\..\..\src\BoatEditor.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  ConsoleUtil.cpp
+..\..\..\..\src\ConsoleUtil.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  Fish.cpp
+..\..\..\..\src\Fish.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  globals.cpp
+..\..\..\..\src\globals.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  main.cpp
+..\..\..\..\src\main.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  MainGame.cpp
+..\..\..\..\src\MainGame.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  MainMenu.cpp
+..\..\..\..\src\MainMenu.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  region.cpp
+..\..\..\..\src\region.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  RegionSelect.cpp
+..\..\..\..\src\RegionSelect.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  State.cpp
+..\..\..\..\src\State.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  StateManager.cpp
+..\..\..\..\src\StateManager.cpp(40): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Intro.cpp
+..\..\..\..\src\Intro.cpp(56): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  stdafx.cpp
+..\..\..\..\src\stdafx.cpp(5): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  Test.cpp
+..\..\..\..\src\Test.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  TradeMenu.cpp
+..\..\..\..\src\TradeMenu.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  Watercraft.cpp
+..\..\..\..\src\Watercraft.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
+  worm.cpp
+..\..\..\..\src\worm.cpp(1): fatal error C1083: Cannot open precompiled header file: 'x64\Release\libtcod_test.pch': No such file or directory
